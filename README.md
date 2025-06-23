@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# 📺 Video Vibes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Video Vibes** is a responsive and modern video browsing platform inspired by YouTube. Users can explore and watch videos through a clean interface, with search functionality powered by both text and voice. The application uses the Rapid API for video data management.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- 🎬 **Browse and Watch Videos**  
+  Stream videos through an elegant and fast interface.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🔎 **Search by Text and Voice**  
+  Search videos by typing or using voice commands for hands-free experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🧼 **Responsive and Clean UI**  
+  Built with React and Tailwind CSS for seamless performance across devices.
 
-### `npm test`
+- 🔗 **Video Management via API**  
+  Uses Rapid API to fetch and manage video content dynamically.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🚫 **No Authentication or Uploading**  
+  This version is focused purely on viewing and searching videos.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Frontend:** React.js, Tailwind CSS
+- **API:** [Rapid API – YouTube Data](https://rapidapi.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1. Clone the Repository
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+git clone https://github.com/Madhumita211/Video-Vibes.git
+cd Video-Vibes
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2. Install Dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm install
+```
 
-## Learn More
+### 3. Set Up Environment Variables
+#Create a .env file and add your Rapid API key:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+REACT_APP_RAPID_API_KEY=your_rapid_api_key_here
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 4. Start the Development Server
 
-### Code Splitting
+```
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The app will run at http://localhost:3000.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📸 Screenshots
 
-### Making a Progressive Web App
+![video vibes](https://github.com/user-attachments/assets/94fbb298-141e-4d49-8906-357126ca8962)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 👩‍💻 Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Madhumita Das
 
-### Deployment
+📧 madhumita021199@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+🔗 GitHub: https://github.com/Madhumita211
 
-### `npm run build` fails to minify
+🔗 LinkedIn: https://www.linkedin.com/in/madhumita-das211/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
